@@ -17,7 +17,12 @@ body {
     color: #34495E;
 }
 
-h1, h2, h3 {
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
+h2, h3 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;

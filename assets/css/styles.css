@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+/* Color scheme
+
+#A9A9A9 Carbon
+#EFEFEF Neutral
+#caebf2 Sky
+#FF3B3F Watermelon
+
+*/
+
 /* Override default styling */
 * {
     padding: 0;
@@ -14,7 +23,7 @@ body {
     flex-direction: column;
     line-height: 1.6;
     min-height: 100vh;
-    color: #34495E;
+    color: #A9A9A9;
 }
 
 h1 {
@@ -32,7 +41,13 @@ h2, h3 {
 /* Header */
 
 header {
-
+    background-color: #CAEBF2;
+    color: #A9A9A9;
+    width: 100%;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 2px 2px #A9A9A9
 }
 
 /* Main */
@@ -43,5 +58,4 @@ main {
 
 /* Footer */
 footer {
-
 }

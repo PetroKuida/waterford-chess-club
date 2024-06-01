@@ -72,6 +72,17 @@ header a {
     border-bottom: 1px solid #3A3A3A;
 }
 
+/* Nav bar dropdown styles*/
+nav {
+    position: absolute;
+    background-color: #CAEBF2;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #A9A9A9;
+    display: none;
+}
+
 /* Main */
 main {
     /* Push footer  down */

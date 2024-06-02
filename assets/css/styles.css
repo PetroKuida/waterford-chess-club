@@ -208,6 +208,17 @@ main {
         width: 400px;
         right: 50px;
     }
+
+    /* About Us */
+    #benefits {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits div {
+        width: 75%;
+    }
 }
 
 /* Laptops, desktops - 992 px and larger*/
@@ -215,5 +226,16 @@ main {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3A3A3A;
+    }
+
+    /* About Us */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #benefits div {
+        width: 75%;
     }
 }

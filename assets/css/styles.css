@@ -35,7 +35,7 @@ h1 {
 }
 
 h2, h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: inherit;
@@ -105,6 +105,26 @@ main {
     margin-top: 98px;
 }
 
+/* Hero section */
+#hero {
+    height: 650px;
+    width: 100%;
+    background: url("../images/hero-bg.jpg") no-repeat center center/cover;
+    color: #3A3A3A;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(202, 235, 242, .7);
+    font-size: 110%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
 /* Footer */
 #social-networks {
     display: flex;
@@ -151,6 +171,12 @@ main {
 
     main {
         margin-top: 80px;
+    }
+
+    /* Hero */
+    #cover-text {
+        width: 400px;
+        right: 50px;
     }
 }
 

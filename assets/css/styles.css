@@ -56,10 +56,10 @@ header {
     align-items: baseline;
 }
 
-header a {
-    text-decoration: none;
-    color: inherit;
-}
+    header a {
+        text-decoration: none;
+        color: inherit;
+    }
 
 #menu {
     font-size: 110%;
@@ -67,9 +67,9 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
-    margin-bottom: 1em;
-}
+    #menu > li {
+        margin-bottom: 1em;
+    }
 
 .active {
     border-bottom: 1px solid #3A3A3A;
@@ -87,12 +87,12 @@ nav {
     top: 100%;
 }
 
-#nav-toggle:checked~nav {
+#nav-toggle:checked ~ nav {
     display: block;
 }
 
 #nav-toggle {
-    display:none;
+    display: none;
 }
 
 #nav-toggle-label {
@@ -125,6 +125,36 @@ main {
     padding-left: 10px;
 }
 
+/* About Us section */
+#about {
+    background-color: #EFEFEF;
+}
+
+#about-us {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+
+#benefits > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* Footer */
 #social-networks {
     display: flex;
@@ -134,11 +164,11 @@ main {
     list-style-type: none;
 }
 
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
-}
+    #social-networks i {
+        font-size: 160%;
+        padding: 5%;
+        color: #3a3a3a;
+    }
 
 /* Media queries */
 /* Tablets - 768 and up */
@@ -155,9 +185,9 @@ main {
         display: flex;
     }
 
-    #menu > li {
-        padding-left: 1rem;
-    }
+        #menu > li {
+            padding-left: 1rem;
+        }
 
     #nav-toggle-label {
         display: none;

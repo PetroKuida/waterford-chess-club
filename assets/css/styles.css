@@ -156,6 +156,9 @@ main {
 }
 
 /* Footer */
+footer {
+    background-color: #caebf2;
+}
 #social-networks {
     display: flex;
     padding: 20px 0;

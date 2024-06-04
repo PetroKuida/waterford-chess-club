@@ -256,23 +256,6 @@ section#tournaments {
     margin-bottom: 0.5rem;
 }
 
-a.cta {
-    display: inline-block;
-    background-color: #FF3B3F;
-    color: #FFF;
-    padding: 0.75rem 2rem;
-    border-radius: 4px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    margin-top: 1rem;
-}
-
-    a.cta:hover {
-        background-color: #D32F2F;
-    }
-
 details summary {
     font-size: 1.5rem;
     cursor: pointer;

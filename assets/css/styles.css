@@ -237,5 +237,9 @@ main {
 
     #benefits div {
         width: 75%;
+        padding: 10px;
+    }
+    #benefits div h3 {
+        min-height: 40px;
     }
 }

@@ -46,6 +46,7 @@ h2, h3 {
 header {
     background-color: #CAEBF2;
     width: 100%;
+    min-width: 280px;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -110,6 +111,7 @@ main {
 #hero {
     height: 650px;
     width: 100%;
+    min-width: 280px;
     background: url("../images/hero-bg.jpg") no-repeat center center/cover;
     color: #3A3A3A;
     position: relative;
@@ -122,9 +124,41 @@ main {
     bottom: 30px;
     width: 80%;
     min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    padding: 1rem 1rem;
 }
+
+/* Styles for the call-to-action link */
+.call-to-action {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+    background-color: #FF3B3F;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    position: relative;
+}
+
+.call-to-action:hover {
+    background-color: #D32F2F;
+    transform: translateY(-2px);
+}
+
+.call-to-action:active {
+    background-color: #B82A2A;
+    transform: translateY(0);
+}
+
+.call-to-action::before {
+    content: "Join Us";
+}
+
 
 /* About Us section */
 #about {
@@ -487,8 +521,11 @@ footer {
         .join-button {
             padding: 1rem 3rem;
         }
+
+        .call-to-action::before {
+            content: "Join us today and improve your game!";
+        }
     }
-}
 
 /* Laptops, desktops - 992 px and larger*/
 

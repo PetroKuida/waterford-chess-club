@@ -101,7 +101,6 @@ nav {
 }
 /* Main */
 main {
-    /* Push footer  down */
     flex: 1 0 auto;
     margin-top: 98px;
     background-color: #EFEFEF;

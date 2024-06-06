@@ -22,11 +22,11 @@
 </head>
 <body>
     <header>
-        <a href="index.html">
+        <a href="index.html" aria-label="Go to Waterford Chess Club homepage">
             <h1 id="logo">Waterford <br /> Chess Club</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-        <label for="nav-toggle" id="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <label for="nav-toggle" id="nav-toggle-label" aria-label="Toggle navigation menu"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
                 <li><a href="index.html" class="active">Home</a></li>
@@ -41,7 +41,7 @@
             <div id="cover-text">
                 <h2>A Friendly Hub for Chess Enthusiasts</h2>
                 <p class="cover-p">Join the Waterford Chess Club and become part of a vibrant community dedicated to the game of chess. Whether you're a beginner or an experienced player, our club offers something for everyone.</p>
-                <a href="signup.html" class="call-to-action"></a>
+                <a href="signup.html" class="call-to-action" aria-label="Sign up for the Waterford Chess Club"></a>
             </div>
         </section>
 
@@ -84,7 +84,7 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact">
+        <section id="contact" aria-label="Contact us section">
             <h2>Contact Us</h2>
             <p>Have questions or want to join? Get in touch with us!</p>
             <address>
@@ -94,11 +94,11 @@
             </address>
             <form action="https://formdump.codeinstitute.net" method="post">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" aria-label="Your full name" required>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" aria-label="Your email address" required>
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+                <textarea id="message" name="message" aria-label="Your message" required></textarea>
                 <button type="submit">Send</button>
             </form>
         </section>

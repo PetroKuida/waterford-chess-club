@@ -1,12 +1,3 @@
-/* Color scheme
-
-#A9A9A9 Carbon
-#EFEFEF Neutral
-#caebf2 Sky
-#A92323 Watermelon
-#3A3A3A font color
-*/
-
 /* Override default styling */
 * {
     padding: 0;
@@ -381,93 +372,93 @@ footer {
 
 /* Media queries */
 /* Tablets - 768 and up */
-    @media screen and (min-width: 768px) {
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-        }
-
-        #menu {
-            display: flex;
-        }
-
-            #menu > li {
-                padding-left: 1rem;
-            }
-
-        #nav-toggle-label {
-            display: none;
-        }
-
-        #logo {
-            font-size: 220%;
-            margin: 0 0.5rem;
-            line-height: 40px;
-        }
-
-        main {
-            margin-top: 80px;
-        }
-
-        /* Hero */
-        #cover-text {
-            width: 400px;
-            right: 50px;
-        }
-
-        /* About Us */
-        #benefits {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-        }
-
-        #benefits div {
-            width: 75%;
-        }
-
-        #contact form {
-            width: 60%;
-        }
-
-        /* Tournaments */
-        .tournament, .results {
-            padding: 2rem;
-        }
-
-        #tournaments p {
-            font-size: 1.4rem;
-        }
-
-        .tournament h3, .results h3 {
-            font-size: 2.2rem;
-        }
-
-        /* Sign Up */
-        section#signup {
-            padding: 3rem 2rem;
-        }
-
-        #signup h2 {
-            font-size: 2.2rem;
-        }
-
-        #signup input[type="text"],
-        #signup input[type="email"] {
-            padding: 1rem;
-        }
-
-        .join-button {
-            padding: 1rem 3rem;
-        }
-
-        .call-to-action::before {
-            content: "Join us today and improve your game!";
-        }
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    #nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 220%;
+        margin: 0 0.5rem;
+        line-height: 40px;
+    }
+
+    main {
+        margin-top: 80px;
+    }
+
+    /* Hero */
+    #cover-text {
+        width: 400px;
+        right: 50px;
+    }
+
+    /* About Us */
+    #benefits {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits div {
+        width: 75%;
+    }
+
+    #contact form {
+        width: 60%;
+    }
+
+    /* Tournaments */
+    .tournament, .results {
+        padding: 2rem;
+    }
+
+    #tournaments p {
+        font-size: 1.4rem;
+    }
+
+    .tournament h3, .results h3 {
+        font-size: 2.2rem;
+    }
+
+    /* Sign Up */
+    section#signup {
+        padding: 3rem 2rem;
+    }
+
+    #signup h2 {
+        font-size: 2.2rem;
+    }
+
+    #signup input[type="text"],
+    #signup input[type="email"] {
+        padding: 1rem;
+    }
+
+    .join-button {
+        padding: 1rem 3rem;
+    }
+
+    .call-to-action::before {
+        content: "Join us today and improve your game!";
+    }
+}
 
 /* Laptops, desktops - 992 px and larger*/
 

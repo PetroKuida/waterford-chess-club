@@ -30,6 +30,15 @@ h2, h3 {
     color: inherit;
 }
 
+form {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #CAEBF2;
+    padding: 2rem;
+    box-shadow: 0 2px 4px #A9A9A9;
+    border-radius: 8px;
+}
+
 .btn {
     background-color: #A92323;
     color: #FFFFFF;
@@ -214,15 +223,6 @@ main {
     font-style: normal;
 }
 
-#contact form {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #CAEBF2;
-    padding: 2rem;
-    box-shadow: 0 2px 4px #A9A9A9;
-    border-radius: 8px;
-}
-
 #contact label {
     display: block;
     font-weight: bold;
@@ -251,14 +251,6 @@ section#tournaments {
 }
 
 /*Tournament register form*/
-#tournament-form {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #CAEBF2;
-    padding: 2rem;
-    box-shadow: 0 2px 4px #A9A9A9;
-    border-radius: 8px;
-}
 
 #tournament-form label {
     display: block;

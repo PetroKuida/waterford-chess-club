@@ -26,6 +26,7 @@
     <link rel="manifest" href="assets/favicon/site.webmanifest">
 </head>
 <body>
+    <!--Header-->
     <header>
         <a href="index.html" aria-label="Go to Waterford Chess Club homepage">
             <h1 id="logo">Waterford <br /> Chess Club</h1>
@@ -40,21 +41,27 @@
             </ul>
         </nav>
     </header>
+
+    <!--Main-->
     <main>
         <section id="tournaments" aria-label="Chess tournaments section">
             <h2>Chess Tournaments</h2>
-            <p>Join us for our exciting chess tournaments! Whether you're a beginner or a seasoned
-            player, there's a tournament for you. Check out our upcoming events and the results of
-            the previous month's tournament below:</p>
+            <p>
+                Join us for our exciting chess tournaments! Whether you're a beginner or a seasoned
+                player, there's a tournament for you. Check out our upcoming events and the results of
+                the previous month's tournament below:
+            </p>
 
             <!-- Announcement for Next Month's Tournament -->
             <article class="tournament" aria-label="Upcoming tournament: Summer Open Chess Tournament">
                 <h3>Upcoming Tournament: Summer Open Chess Tournament</h3>
                 <p><strong>Date:</strong> July 20, 2024</p>
                 <p><strong>Location:</strong> Waterford Community Center</p>
-                <p><strong>Description:</strong> This tournament is open to chess enthusiasts of all
-                ages and skill levels. Whether you're a beginner or a seasoned player, come join us
-                for a day of exciting chess competition and camaraderie.</p>
+                <p>
+                    <strong>Description:</strong> This tournament is open to chess enthusiasts of all
+                    ages and skill levels. Whether you're a beginner or a seasoned player, come join us
+                    for a day of exciting chess competition and camaraderie.
+                </p>
                 <form action="https://formdump.codeinstitute.net" id="tournament-form" method="post">
                     <label for="name">Name:</label>
                     <input type="text" id="name" class="form-input" name="name" required>
@@ -66,7 +73,7 @@
 
             <!-- Results of Previous Month's Tournament -->
             <article class="results" aria-label="Results of previous month's tournament">
-                
+
                 <details>
                     <summary>
                         Results: May Chess Tournament
@@ -183,10 +190,12 @@
                         </tbody>
                     </table>
                 </details>
-                
+
             </article>
         </section>
     </main>
+
+    <!--Footer-->
     <footer>
         <ul id="social-networks">
             <li>

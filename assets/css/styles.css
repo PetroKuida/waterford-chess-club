@@ -362,7 +362,8 @@ footer {
 }
 
 /* Media queries */
-/* Tablets - 768 and up */
+
+/* Adjustments for medium-sized screens like tablets */
 @media screen and (min-width: 768px) {
     nav {
         display: block;
@@ -451,7 +452,7 @@ footer {
     }
 }
 
-/* Laptops, desktops - 992 px and larger*/
+/* Adjustments for large screens like laptops and desktops */
 
 @media screen and (min-width: 992px) {
     #menu a:hover {

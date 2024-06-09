@@ -135,7 +135,7 @@ main {
 
 /* Hero section */
 #hero {
-    height: 650px;
+    height: 700px;
     width: 100%;
     min-width: 280px;
     /* Image taken from https://www.pexels.com/photo/brown-and-black-wooden-chess-piece-163427/ */
@@ -148,7 +148,8 @@ main {
     background-color: rgba(202, 235, 242, .7);
     font-size: 110%;
     position: absolute;
-    bottom: 30px;
+    bottom: 100px;
+    left: 20px;
     width: 80%;
     min-height: 200px;
     padding: 1rem 1rem;

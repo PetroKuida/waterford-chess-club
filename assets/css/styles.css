@@ -135,7 +135,7 @@ main {
 
 /* Hero section */
 #hero {
-    height: 700px;
+    height: 100%;
     width: 100%;
     min-width: 280px;
     /* Image taken from https://www.pexels.com/photo/brown-and-black-wooden-chess-piece-163427/ */
@@ -217,6 +217,7 @@ main {
 #contact {
     background-color: #EFEFEF;
     padding: 0 1rem;
+    padding-bottom: 2rem;
     text-align: center;
 }
 

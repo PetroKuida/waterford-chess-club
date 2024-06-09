@@ -179,17 +179,22 @@ main {
 
 
 /* About Us section */
+
 #about {
     background-color: #EFEFEF;
 }
 
 #about-us {
     width: 90%;
-    margin: 20px auto;
+    margin: 2rem auto;
+}
+
+#about-us p {
+    margin-bottom: 2rem;
 }
 
 #about h2 {
-    margin-bottom: 20px;
+    margin: 20px auto;
     text-align: center;
     font-size: 200%;
 }
@@ -210,12 +215,12 @@ main {
 /* Contact Us section */
 #contact {
     background-color: #EFEFEF;
-    padding: 2rem 1rem;
+    padding: 0 1rem;
     text-align: center;
 }
 
 #contact h2 {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     font-size: 200%;
 }
 
@@ -473,7 +478,7 @@ footer {
     }
 
     #benefits div h3 {
-        min-height: 40px;
+        min-height: 60px;
     }
 
     #contact form {

@@ -138,6 +138,7 @@ main {
     height: 650px;
     width: 100%;
     min-width: 280px;
+    /* Image taken from https://www.pexels.com/photo/brown-and-black-wooden-chess-piece-163427/ */
     background: url("../images/hero-bg.webp") no-repeat center center/cover;
     color: #3A3A3A;
     position: relative;

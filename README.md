@@ -72,6 +72,17 @@ Waterford Chess Club is a local community website designed to unite chess enthus
 ![Sign Up page mobile](docs/images/sign_up_mobile.png)
 ## Testing
 
+### Bugs
+Issue 001
+Underline of the titles not aligned on the desktop screen.
+Resolution: min-height property added to the headers in the benefit section
+![Issue 001](docs/testing/issue_001.png)
+
+Issue 002
+White space between sections
+Resolution: Bacground-color property added to the body instead of the each section.
+![Issue 002](docs/testing/issue_002.png)
+
 ### Manual testing
 
 - Navigation bar :

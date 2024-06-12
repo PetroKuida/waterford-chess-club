@@ -2,66 +2,75 @@
 
 [Link to a live site](https://petrokuida.github.io/waterford-chess-club/)
 
-![Responsive view of Waterford Chess Club website](https://github.com/PatrycjaBlaszkowska/project-WizardsTower/blob/main/docs/images/introduction-image.PNG)
+![Responsive view of Waterford Chess Club website](docs/images/amiresponsive.png)
 
 ## Introduction
 
 Waterford Chess Club is a local community website designed to unite chess enthusiasts in the Waterford area. The primary purpose of this platform is to organize events, recruit new members, and provide information on club activities. Waterford Chess Club aims to promote the game of chess, foster a sense of community, and offer members opportunities to enhance their skills through regular meetups, tournaments, and online resources. Whether you are a seasoned player or a beginner, Waterford Chess Club offers a welcoming environment for all skill levels.
 
-### Features present across the project 
+### Features 
 
 ### Navigation bar :
 
-- Navabar is present on every page, fully responsive across all resolutions.
-- Navbar toggles to a hamburger menu on mobile devices. 
-- The user can navigate across the site freely.
+- Featured on all pages, the navigation bar includes links to the Home, Tournaments and Sign Up pages. This ensures users can easily navigate the site on any device.
+- It provides a dropdown menu on mobile devices.
 
 **Desktop** : 
 
-![Desktop navbar]()
+![Desktop navbar](docs/images/nav_desktop.png)
 
 **Mobile** :
 
-![Mobile navbar]()
+![Mobile navbar](docs/images/nav_mobile.png)
 
 ### Footer :
+- The footer includes links to the club's social media pages which opens in a new tab.
+- Footer is present on every page
 
-- Footer is present on every page, for the user who wishes to navigate to the pages from the bottom, rather than having to scroll up.
-- Footer contains social media links that are opening in a new tab.
+![Footer](docs/images/footer_mobile.png)
 
-![Footer]()
+### Hero section :
 
-### Hero images :
-
-- Included to draw the user's attention and show the purpose of the website stright away.
+- The hero section on the homepage features an engaging image and a brief welcome message. It sets the tone for the site and invites visitors to explore more about the club.
+- It includes prominent call-to-action button, directing users to sign-up page.
 
 **Desktop** :
 
-![Hero image desktop]()
+![Hero image desktop](docs/images/hero_desktop.png)
 
 **Mobile** :
 
-![Hero image mobile]()
+![Hero image mobile](docs/images/hero_mobile.png)
 
-### Introduction section :
+### About Us section :
 
-- The introduction section shows the purpose of the business right away, so the user can determine if this website is useful for him within the first few minutes.
+- The About Us section shows the purpose of the website, so the user can determine if this is useful for him within the first few minutes.
 
-![Home page - introduction]()
+![About Us section](docs/images/about_us_desktop.png)
 
-### Contact form :
+### Contact Us :
 
-- Allows users to contact businesses with any inquiries.
-- The user is also able to book activities or a table via a contact form.
-- The user is able to provide feedback to the business. 
+- The contact page includes a form for users to send inquiries, as well as the club’s contact details. This ensures users can easily reach out with questions or feedback.
+- It offers multiple contact options.
 
-![Contact form](https://github.com/PatrycjaBlaszkowska/project-WizardsTower/blob/main/docs/testing/contact-form.PNG)
+**Desktop** :
+![Contact form desktop](docs/images/contact_us_desktop.png)
 
+**Mobile** :
+![Contact form mobile](docs/images/contact_us_mobile.png)
+
+### Tournaments page
+
+- A dedicated form for members to register for upcoming tournaments. This feature simplifies the registration process and helps the club manage event participation efficiently.
+- This section displays the results of past tournaments. It keeps members informed and celebrates their achievements.
+
+![Tournaments page](docs/images/tournaments_desktop.png)
+### Sign Up page
+
+- The sign-up page allows new members to join the Waterford Chess Club by providing their personal information. This feature is crucial for growing the club's membership and community.
+
+![Sign Up page mobile](docs/images/sign_up_mobile.png)
 ## Testing
-
-### User stories :
-
-[User stories testing](https://github.com/PatrycjaBlaszkowska/project-WizardsTower/blob/main/docs/testing/testing.md)
 
 ### Manual testing
 
@@ -74,52 +83,24 @@ Waterford Chess Club is a local community website designed to unite chess enthus
 - Footer :
     - Footer is fully responsive on large/medium/small resolutions.
     - Social media links are working and opening in a new tab.
-    - Links to pages are working properly.
-    - Hover CSS is correctly working. (Available on desktop only).
 
 - Hero image :
-    - Image is succesfully changing for a different on on devices smaller than 922px.
+    - Image is succesfully changing for a different size devices.
 
 - Contact form links :
     - Links located in the introduction section on a main page and in the new cocktails section are both working properly.
 
-- Background images :
-    - Menu and contact form background photos are linked correctly.
-    - Images are successfully scaling on mobile devices. 
-
 - Contact form :
     - The form is working as intended.
-    - The form is successfully redirecting the user to the "thank you" page.
+    - The form is successfully sending request.
     - Submit button is working correctly. 
-    - The form is looking good on smaller devices.
+    - The form is looking good on all size devices.
 
 #### Devices used during testing:
 
 - Desktop Computer
-- Iphone 13
-- Lenovo Tab M10 Plus
-
-### Chrome Dev Tools
-
-Chrome dev tools was used throughout the development of the project to test responsiveness. 
-Responsiveness was tested using Dev Tools to emulate the following devices :
-
-- Iphone SE
-- Iphone XR
-- Iphone 12 Pro
-- Iphone 14 Pro Max
-- Pixel 7
-- Samsung Galaxy S8+
-- Samsung Galaxy S20 Ultra
-- iPad Mini
-- iPad Air
-- iPad Pro
-- Surface Pro 7
-- Surface Duo
-- Galaxy Fold
-- Samsung Galaxy A51/71
-- Nest Hub
-- Nest Hub Max
+- Android 13 device
+- Chrome dev tools emulator 
 
 ### Browser Testing
 
@@ -129,7 +110,6 @@ However, during testing process below browsers have been used :
 - Google Chrome
 - Microsoft Edge
 - Mozilla Firefox
-- Opera
 - Safari
 
 ### Validation
@@ -138,68 +118,39 @@ However, during testing process below browsers have been used :
 
 - 0 errors
 - 0 warnings
-- 18 info messages which are cased by CodeAnywhere's built-in code beautifier. CodeAnywhere is adding closing tag to the self-closing tags and causing this info messages.
 
-![HTML validator results]()
+![HTML validator results](docs/testing/html_validation.png)
 
 [CSS validator](https://jigsaw.w3.org/css-validator/)
 
 - 0 errors
 - 0 warnings
-- 0 info messages
 
-![CSS validator results]()
+![CSS validator results](docs/testing/css_validation.png)
 
 ### Bugs and Fixes
-
-- Navbar wasn't "pushing" content down despite margin and padding :
-    - Resolved by adding Bootstrap's "fixed-top" class to the navbar's tag. 
-
-- Activities section was not working properly on smaller devices when created with div's and positioned with a float attribute. 
-  Float caused this section to overlapp content under it on a mobile device :
-    - Decided to use Bootstrap's grid system instead. 
 
 ### Un-resolved Bugs
 
 - There is no un-resolved bugs
 
-## Deployment 
-
-The master branch of this repository is the most current version and has been used for the deployed version of the site.
-The Code Institiue student template was used to create this project.
-
-[Code Institute Template for CodeAnywhere](https://github.com/Code-Institute-Org/ci-full-template)
-
-1. Click **Use This Template** button.
-2. Give your repository a name, and description.
-3. Open [CodeAnywhere EDI](https://app.codeanywhere.com/) and log into your account.
-4. Click **New Workspace** button.
-5. Create a workspace from your project repository by creating a clone.
-
-### Creating a clone
-
-1. From the repository, click **Code**.
-2. In the **Clone >> HTTPS** section, copy the clone URL for the repository.
-3. Paste a link into the designated area on the CodeAnywhere. 
-
-### Forking
-
-1. From the repository, click **Fork**.
-2. Give your repository a name.
-3. Click **Create fork**.
-
 ## Credits
 
 ### Images :
 
-- Unsplash
-
-[Hero image - desktop](https://unsplash.com/photos/person-holding-wand-on-top-of-bowl-3n7DdlkMfEg)
+- Image for Hero section taken from:
+https://www.pexels.com/photo/brown-and-black-wooden-chess-piece-163427/
 
 ### Code :
 
 - [Code Institute, Love running project](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) :
-    - Inspiration for a contact page/form.
+    - Inspiration for nav-bar, footer.
 
 - [Font Awesome](https://fontawesome.com/) :
     - Used for all icons across the website.
+
+### Text
+- Text content was generated with the assistance of the chatGPT
+
+### Fonts
+- Google Fonts: Open Sans and Raleway

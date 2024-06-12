@@ -113,7 +113,7 @@ However, during testing process below browsers have been used :
 - Safari
 
 ### Validation
-
+#### HTML
 [HTML validator](https://validator.w3.org/)
 
 - 0 errors
@@ -121,6 +121,7 @@ However, during testing process below browsers have been used :
 
 ![HTML validator results](docs/testing/html_validation.png)
 
+#### CSS
 [CSS validator](https://jigsaw.w3.org/css-validator/)
 
 - 0 errors
@@ -128,11 +129,28 @@ However, during testing process below browsers have been used :
 
 ![CSS validator results](docs/testing/css_validation.png)
 
+#### Accessability (Chrome Lighthouse)
+
+Desktop
+![Lighthouse desktop](docs/testing/lighthouse_desktop.png)
+
+Mobile
+![Lighthouse mobile](docs/testing/lighthouse_mobile.png)
+
 ### Bugs and Fixes
 
 ### Un-resolved Bugs
 
 - There is no un-resolved bugs
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://petrokuida.github.io/waterford-chess-club/
 
 ## Credits
 

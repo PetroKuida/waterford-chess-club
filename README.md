@@ -156,10 +156,23 @@ Mobile
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - From the source section drop-down menu, select the Main Branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://petrokuida.github.io/waterford-chess-club/
+
+### Cloning
+
+1. From the repository, click **Code**.
+2. In the **Clone >> HTTPS** section, copy the clone URL for the repository.
+3. Run the following command in the destination directory:  
+```git clone https://github.com/PetroKuida/waterford-chess-club.git```
+
+### Forking
+
+1. From the repository, click **Fork**.
+2. Give your repository a name.
+3. Click **Create fork**.
 
 ## Credits
 
